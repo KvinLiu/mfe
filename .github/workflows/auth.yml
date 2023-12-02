@@ -30,7 +30,7 @@ jobs:
       # deploy the website to Amazon S3
       - name: Deploy website to Amazon S3
         run: |
-          aws s3 sync dist s3://${{ secrets.AWS_S3_BUCKET_NAME}}/marketing/latest --delete 
+          aws s3 sync dist s3://${{ secrets.AWS_S3_BUCKET_NAME}}/auth/latest --delete 
 
       - name: Create Cloudfront invalidation
         run: |
