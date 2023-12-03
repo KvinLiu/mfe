@@ -62,7 +62,7 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.10.0(webpack-dev-server@3.11.3)(webpack@5.89.0)
   webpack-dev-server:
-    specifier: ^3.11.0
+    specifier: ^3.11.3
     version: 3.11.3(webpack-cli@4.10.0)(webpack@5.89.0)
   webpack-merge:
     specifier: ^5.2.0
